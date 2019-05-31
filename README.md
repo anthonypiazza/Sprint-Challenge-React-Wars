@@ -26,11 +26,22 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a JS library that was built to simplify the creation of large-scale web applications that take in a lot of changing data. 
+Facebook first created the library to help with their own scalability issues. 
+
 - [ ] What does it mean to _think_ in react?
+
+To think in React means to consider the flow of data when coding the application. You must be sure to link state and props correctly from parent to child components
+and consider which component requires which props/imports.
 
 - [ ] Describe state.
 
+State is known as the 'heart of the application' as it holds the data that you will refer to throughout the app.
+
 - [ ] Describe props.
+
+Props is a reference call from child components to the parent components state. In order to call props 'properly' you must define props on the child element
+you wish to call it on when you declare it in the parent file's JSX render.
 
 ## Project Set Up
 
