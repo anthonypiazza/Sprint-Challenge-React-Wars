@@ -26,31 +26,31 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-<!-- React JS is a JS library that was built to simplify the creation of large-scale web applications that take in a lot of changing data. 
-Facebook first created the library to help with their own scalability issues.  -->
+React JS is a JS library that was built to simplify the creation of large-scale web applications that take in a lot of changing data. 
+Facebook first created the library to help with their own scalability issues. 
 
 - [ ] What does it mean to _think_ in react?
 
-<!-- To think in React means to consider the flow of data when coding the application. You must be sure to link state and props correctly from parent to child components and consider which component requires which props/imports. -->
+To think in React means to consider the flow of data when coding the application. You must be sure to link state and props correctly from parent to child components and consider which component requires which props/imports.
 
 - [ ] Describe state.
 
-<!-- State is known as the 'heart of the application' as it holds the data that you will refer to throughout the app. -->
+State is known as the 'heart of the application' as it holds the data that you will refer to throughout the app.
 
 - [ ] Describe props.
 
-<!-- Props is a reference call from child components to the parent components state. In order to call props 'properly' you must define props on the child element you wish to call it on when you declare it in the parent file's JSX render. -->
+Props is a reference call from child components to the parent components state. In order to call props 'properly' you must define props on the child element you wish to call it on when you declare it in the parent file's JSX render.
 
 - [ ]  What are side effects, and how do you sync effects in a React component to state or prop changes?
 
-<!-- -----A side effect is anything that affects something outside the scope of the function being executed
+-----A side effect is anything that affects something outside the scope of the function being executed
      i.e) API calls, timeouts, loggers, DOM manipulation
 
 -----We can sync side effects with state/props changes by passing in a dependency array as the second argument to the effect hook that specifies for the useEffect hook to only fire when a certain prop/state changes
 
 -----If an array is not passed in after the callback function, the effect will fire after any changes creating an endless loop bc each time it fires it triggers itself again due to no change restrictions
  
------If you only want useEffect to fire on an initial mount -> set dependency array to empty array (once useEffect has fired once it will never be empty again so useEffect will not refire) -->
+-----If you only want useEffect to fire on an initial mount -> set dependency array to empty array (once useEffect has fired once it will never be empty again so useEffect will not refire)
 
 ## Project Set Up
 Project Set Up
