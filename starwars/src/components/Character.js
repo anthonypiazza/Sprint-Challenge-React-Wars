@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Character = props => {
+    if (!props.char) return <div>Loading...</div>
     return (
         <div className="character">
             <h1>{props.char.name}</h1>
